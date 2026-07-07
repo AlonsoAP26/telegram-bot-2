@@ -141,7 +141,7 @@ async def logUserBot():
                 parse_mode="HTML",
             )
 
-            await asyncio.sleep(240)
+            await asyncio.sleep(180)
 
         except Exception as error:
             print(f"Error: {error}")
